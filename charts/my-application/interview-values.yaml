@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: nginx
+  tag: latest
+
+resources:
+  requests:
+    memory: "16Gi"
+    cpu: 1
